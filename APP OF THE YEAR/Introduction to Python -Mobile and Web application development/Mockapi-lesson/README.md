@@ -1,36 +1,35 @@
-Mock API Exercise: Music Album
+# FNB App Academy — Introduction to Python: Mobile and Web Application Development
 
-Practice GET, POST, PUT, and DELETE against a real API using Python's
-requests library.
+Welcome to the **FNB App Academy** repository for the **Introduction to Python: Mobile and Web Application Development** module, offered in partnership with the **University of Johannesburg (UJ)**.
 
-Steps:
+This repository serves as a practical codebase documenting hands-on exercises, API implementations, Object-Oriented Programming (OOP) concepts, and full-stack application development using Python and Flet.
 
-1. Go to mockapi.io and create a new project.
-2. Add a resource named Album with three string fields: id, name, rate.
-3. Pick any album. On the Data tab, add at least 3 songs, for example:
+---
 
-   {
-     "id": "1",
-     "name": "Good Morning",
-     "rate": "9"
-   }
+## 📌 Repository Overview
 
-4. Copy the resource's API URL.
-5. Open mockapi.py and paste your URL into API_ENDPOINT:
+This repository tracks learning modules, practical activities, and project deliverables throughout the course, including:
 
-   API_ENDPOINT = "PASTE_YOUR_MOCKAPI_URL_HERE"
+* **Object-Oriented Programming (OOP):** Class design, inheritance, and modular Python programming (`OOP.py`, `Zoo.py`).
+* **REST API Integration & Management:** Performing full CRUD operations (`GET`, `POST`, `PUT`, `DELETE`) against external endpoints and mock services (`mockapi.py`, `bookstore_api.py`).
+* **Core Utilities & Logic:** Python functions, structured data handling, and algorithmic exercises (`functions.py`, `longterm.py`).
+* **Capstone Application:** Building, testing, and refining a GUI/Mobile web app using Python and Flet (`main.py`).
 
-   Use your own URL, not a shared or example one.
+---
 
-6. Read the GET section, it's done, use it as a reference.
-7. Complete the three TODOs below it: POST (create a song), PUT
-   (replace a song), DELETE (remove a song). Each TODO lists the exact
-   steps and variable names. Keep the TODO comments.
-8. Run the script:
+## 📁 Repository Structure
 
-   python mockapi.py
-
-9. Check the output: GET (200), POST (201), PUT (200), DELETE (200,
-   then a GET on that id errors).
-10. Submit your completed mockapi.py and a screenshot of the mockapi.io
-    Data tab showing your songs after POST, PUT, and DELETE.
+```text
+.
+├── APP OF THE YEAR /
+│   └── Introduction to Python - Mobile and Web application development /
+│       └── Mockapi-lesson /
+│           ├── OOP.py               # Object-Oriented Programming examples
+│           ├── Zoo.py               # OOP inheritance and class structures
+│           ├── bookstore_api.py     # Bookstore REST API CRUD implementation
+│           ├── functions.py         # Utility functions and core logic
+│           ├── longterm.py          # Data handling and exercise scripts
+│           ├── main.py              # Application entry point
+│           ├── mockapi.py           # MockAPI REST integration script
+│           └── README.md            # Exercise-specific instructions
+└── README.md                        # Primary repository documentation
